@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("Louis George Cafe.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /*  navbar styling  */
+  .navbar-brand {
+    letter-spacing: 3px;
+    color: grey 4;
+  }
+  
+  .navbar-brand:hover {
+    color: grey;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: grey;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: grey;
+  }
+  
+  .navbar-scrolled {
+    background-color: black;
+  }
+  
+  /*  body n components styling  */
+  
+  body {
+    background-color: black;
+    color: #ffffff;
+    font-family: "CustomFont", Arial, Helvetica, sans-serif;
+  }
+  h1,
+  h2 {
+    color: #ffffff;
+  }
+  p {
+    color: #b0b0b0;
+  }
+  
+  /*  hero section styling  */
+  
+  .hero-section h1 {
+    font-weight: 700;
+    font-family: "CustomFont", sans-serif;
+  }
+  
+  .hero-section p {
+    font-weight: 400;
+    font-family: "CustomFont", sans-serif;
+  }
+  
+  .hero-section {
+    background-image: url("g.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+    font-family: "uncanny", "Arial Narrow", Arial;
+  }
+  
+
+  
+  /*  sidebar styling  */
+  
+  .sidebar {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    left: 200px;
+    top: 0;
+    width: 385px;
+  }
+  
+  .btn-grey {
+    background-color: #808080;
+    color: white;
+    border: none;
+  }
+  
+  .btn-grey:hover {
+    background-color: #666666;
+  }
+  
+  .card {
+    background-color: #4e4e4e;
+    flex: 1 1 18rem;
+    margin: 10px;
+    height: 100%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body {
+      background-color: #1a1a1a;
+      color: white;
+      margin-top: 80px; 
+  }
+
+  .hero-section {
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  .intro {
+    margin: 20px auto; 
+    max-width: 600px; 
+    line-height: 1.6; 
+    font-family: "CustomFont";
+}
+
+  .cv-contact {
+      margin-top: 30px;
+  }
+
+  .btn-grey {
+      background-color: #333;
+      color: white;
+  }
+
+  .btn-grey:hover {
+      background-color: #555;
+  }
+
+  .contact-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info {
+    margin: 20px auto;
+    max-width: 600px; 
+}
+.loginbox {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1f1f1f; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  margin: 0 auto; 
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #69727b; 
+}
+
+.btn {
+  background-color: #393c3e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "CustomFont";
+
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.additional-contact-info {
+  margin-top: 30px;
+  color: #b0b0b0;
+}
+
+.cv-container {
+    margin: 40px auto;
+    max-width: 800px; 
+}
+
+iframe {
+    width: 100%;
+    height: 850px; 
+    border: none; 
+    transform: scale(1.1); 
+    transform-origin: top left; 
+}
+
+.projects-container {
+  margin: 40px auto;
+  max-width: 800px; 
+  text-align: center; 
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #2a2a2a; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 150px; 
+  height: auto; 
+  border-radius: 10px; 
+  margin-right: 20px; 
+}
+
+.project-info {
+  text-align: left; 
+
+}
+
+h1 {
+  color: #ffffff;
+}
